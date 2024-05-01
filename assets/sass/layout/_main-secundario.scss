@@ -46,10 +46,12 @@ height: 100%;
 
 .section-conocenos__imagen{
     position: absolute;
-    width:40%;
+    width:50%;
     height:80%;
     top: 25px;
-    right: 140px;
+    right: 10%;
+    object-fit: cover;
+
     
 }
 .section-conocenos__imagen-tres{

@@ -12,6 +12,7 @@ header {
 .logo {
   display: inline-block;
   vertical-align: middle; /* Alinear verticalmente los elementos */
+  width: 9%;
 }
 
 .menu {
@@ -59,7 +60,6 @@ main {
 
 .contenedor {
   position: relative;
-  background-color: blueviolet;
   width: 70%;
 }
 
@@ -134,11 +134,16 @@ main {
 .menu__button-first--color-transparent {
   position: absolute;
   right: 12%;
+  padding: 0.5%;
+  color: gray;
 }
 
 .menu__button-second--color-green {
   position: absolute;
   right: 5%;
+  padding: 0.5%;
+  color: white;
+  background-color: rgb(62, 224, 62);
 }
 
 .segunda-seccion {
@@ -185,10 +190,11 @@ main {
 
 .section-conocenos__imagen {
   position: absolute;
-  width: 40%;
+  width: 50%;
   height: 80%;
   top: 25px;
-  right: 140px;
+  right: 10%;
+  object-fit: cover;
 }
 
 .section-conocenos__imagen-tres {
@@ -199,6 +205,27 @@ main {
   left: 92%;
   object-fit: cover;
   z-index: 1;
+}
+
+:root {
+  --color-primario: #fff;
+  --color-primario: #eeeded;
+  --color-primario: #989797;
+  --color-primario: #FA824C;
+  --color-primario: #F1DD7B;
+  --color-primario: #F5E7A1;
+  --color-primario: #E4572E;
+  --color-primario: #E87554;
+  --color-primario: #F2B2A0;
+  --color-primario: #4CA866;
+  --color-primario: #9DCFAB;
+  --color-primario: #8DDFC7;
+  --color-primario: #3C91E6;
+  --color-primario: #5FA5EA;
+  --color-primario: #82B9EF;
+  --color-primario: #000000;
+  --color-primario: #454545;
+  --color-primario: #A2A2A2;
 }
 
 /*# sourceMappingURL=style.css.map */
