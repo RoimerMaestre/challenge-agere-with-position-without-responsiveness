@@ -109,7 +109,7 @@ main {
 .box-agere {
   width: 5.5rem;
   height: 5.5rem;
-  background-color: yellow;
+  background-color: var(--color-primario-buff);
   position: absolute;
   bottom: 0;
 }
@@ -117,7 +117,7 @@ main {
 .box-agere-icon {
   width: 5.5rem;
   height: 5.5rem;
-  background-color: orangered;
+  background-color: var(--color-primario-flame);
   position: absolute;
   bottom: 12px;
   left: -3%;
@@ -133,17 +133,17 @@ main {
 
 .menu__button-first--color-transparent {
   position: absolute;
-  right: 12%;
+  right: 13%;
   padding: 0.5%;
   color: gray;
 }
 
 .menu__button-second--color-green {
   position: absolute;
-  right: 5%;
+  right: 6%;
   padding: 0.5%;
   color: white;
-  background-color: rgb(62, 224, 62);
+  background-color: var(--color-primario-shiny-shamrock);
 }
 
 .segunda-seccion {
@@ -172,7 +172,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: rgb(42, 152, 162);
+  background-color: var(--color-primario-blue-de-france);
 }
 
 .section-conocenos-img {
@@ -208,24 +208,24 @@ main {
 }
 
 :root {
-  --color-primario: #fff;
-  --color-primario: #eeeded;
-  --color-primario: #989797;
-  --color-primario: #FA824C;
-  --color-primario: #F1DD7B;
-  --color-primario: #F5E7A1;
-  --color-primario: #E4572E;
-  --color-primario: #E87554;
-  --color-primario: #F2B2A0;
-  --color-primario: #4CA866;
-  --color-primario: #9DCFAB;
-  --color-primario: #8DDFC7;
-  --color-primario: #3C91E6;
-  --color-primario: #5FA5EA;
-  --color-primario: #82B9EF;
-  --color-primario: #000000;
-  --color-primario: #454545;
-  --color-primario: #A2A2A2;
+  --color-primario-white: #fff;
+  --color-primario-issabeline: #eeeded;
+  --color-primario-spanish-grey: #989797;
+  --color-primario-coral: #FA824C;
+  --color-primario-buff: #F1DD7B;
+  --color-primario-vanilla: #F5E7A1;
+  --color-primario-flame: #E4572E;
+  --color-primario-ligh-red-ochre: #E87554;
+  --color-primario-pastel-pink: #F2B2A0;
+  --color-primario-shiny-shamrock: #4CA866;
+  --color-primario-turquoise-green: #9DCFAB;
+  --color-primario-pastel-grey: #8DDFC7;
+  --color-primario-blue-de-france: #3C91E6;
+  --color-primario-blue-jean: #5FA5EA;
+  --color-primario-jordy-blue: #82B9EF;
+  --color-primario-black: #000000;
+  --color-primario-outer-space: #454545;
+  --color-primario-quick-silver: #A2A2A2;
 }
 
 /*# sourceMappingURL=style.css.map */

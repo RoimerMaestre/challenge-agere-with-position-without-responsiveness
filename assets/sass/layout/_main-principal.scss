@@ -57,14 +57,14 @@ text-align: justify;
 .box-agere{
     width: 5.5rem;
     height: 5.5rem;
-    background-color: yellow;
+    background-color: var(--color-primario-buff);
     position: absolute;
     bottom: 0;
 }
 .box-agere-icon{
     width: 5.5rem;
     height: 5.5rem;
-  background-color: orangered;
+  background-color:var(--color-primario-flame);
     position: absolute;
     bottom: 12px;
     left: -3%;

@@ -1,14 +1,15 @@
 .menu__button-first--color-transparent{
 position: absolute;
-right: 12%;
+right: 13%;
 padding: 0.5%;
 color: gray;
 
 }
 .menu__button-second--color-green{
 position: absolute;
-right: 5%;
+right: 6%;
 padding: 0.5%;
 color: white;
-background-color:rgb(62, 224, 62);
+background-color:var(--color-primario-shiny-shamrock);
 }
+
