@@ -1,0 +1,78 @@
+main{
+   
+    position: relative;
+}
+.contenedor__img{
+    width: 100%;
+}
+.contenedor{
+    position: relative;
+    background-color: blueviolet;
+    width: 70%;
+
+}
+.informacion{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.informacion div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.informacion__cantidad{
+    font-size: 200%;
+}
+.informacion__item{
+    width: 30%;
+    font-size: 80%;
+    
+}
+.section-cafe-agere{
+position: absolute;
+top: 0;
+right: 0;
+
+width: 30%;
+height: 100%;
+text-align: justify;
+ 
+}
+.section-cafe-agere h1{
+    font-size: 5rem;
+    font-weight: 100; 
+    margin-top: 25%;
+    margin-left: 25%;  
+}
+.section-cafe-agere p{
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.box-agere{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+}
+.box-agere-icon{
+    width: 5.5rem;
+    height: 5.5rem;
+  background-color: orangered;
+    position: absolute;
+    bottom: 12px;
+    left: -3%;
+}
+.custom-icon{
+position: absolute;
+bottom: 1.3rem;
+right: 1.5rem;
+color: white;
+font-size: 3rem;
+}
