@@ -1,80 +1,71 @@
-main{
-   
-    position: relative;
+main {
+  position: relative;
 }
-.contenedor__img{
-    width: 100%;
+.contenedor__img {
+  width: 100%;
 }
-.contenedor{
-    position: relative;
-    
-    width: 70%;
+.contenedor {
+  position: relative;
 
+  width: 70%;
 }
-.informacion{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: white;
-    padding: 15px;
-    
+.informacion {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 15px;
 }
 
-.informacion div{
-    display: inline-block;
-    vertical-align: top;
+.informacion div {
+  display: inline-block;
+  vertical-align: top;
 }
 
-.informacion__cantidad{
-    font-size: 200%;
+.informacion__cantidad {
+  font-size: 200%;
 }
-.informacion__item{
-    width: 30%;
-    font-size: 80%;
-    
+.informacion__item {
+  width: 30%;
+  font-size: 80%;
 }
-.section-cafe-agere{
-position: absolute;
-top: 0;
-right: 0;
-width: 30%;
-height: 100%;
-text-align: justify;
-
- 
+.section-cafe-agere {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  text-align: justify;
 }
-.section-cafe-agere__titulo{
-    margin: 5rem 5rem 0 5rem;
-    font-size: 5rem;
-    font-weight: 100; 
-  
+.section-cafe-agere__titulo {
+  margin: 5rem 5rem 0 5rem;
+  font-size: 5rem;
+  font-weight: 100;
 }
-.section-cafe-agere__parrafo{
-    margin-left: 23%;
-    margin-top: 1rem;
-   
-
+.section-cafe-agere__parrafo {
+  margin-left: 23%;
+  margin-top: 1rem;
 }
 
-.box-agere{
-    width: 5rem;
-    height: 5rem;
-    background-color: var(--color-buff);
-    position: absolute;
-    bottom: 0;
+.box-agere {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-buff);
+  position: absolute;
+  bottom: 0;
 }
-.box-agere-icon{
-    width: 5.5rem;
-    height: 5.5rem;
-  background-color:var(--color-flame);
-    position: absolute;
-    bottom: 12px;
-    left: -3%;
+.box-agere-icon {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-flame);
+  position: absolute;
+  bottom: 12px;
+  left: -3%;
 }
-.custom-icon{
-position: absolute;
-bottom: 1.3rem;
-right: 1.5rem;
-color: white;
-font-size: 3rem;
+.custom-icon {
+  position: absolute;
+  bottom: 1.3rem;
+  right: 1.5rem;
+  color: white;
+  font-size: 3rem;
 }

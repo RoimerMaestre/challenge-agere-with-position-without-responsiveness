@@ -39,6 +39,10 @@ header {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu__link {
   text-decoration: none;
   color: var(--color-spanish-grey);
@@ -105,16 +109,16 @@ main {
 }
 
 .box-agere {
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   background-color: var(--color-buff);
   position: absolute;
   bottom: 0;
 }
 
 .box-agere-icon {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 6rem;
+  height: 6rem;
   background-color: var(--color-flame);
   position: absolute;
   bottom: 12px;
@@ -131,9 +135,16 @@ main {
 
 .menu__button-first--color-transparent {
   position: absolute;
-  right: 13%;
+  right: 18%;
   padding: 0.5%;
-  background-color: var(white);
+  background-color: var(--color-white);
+  color: var(--color-spanish-grey);
+  border: 1px solid var(--color-spanish-grey);
+}
+
+.menu__button-first--color-transparent:hover {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
 }
 
 .menu__button-second--color-green {
@@ -142,6 +153,11 @@ main {
   padding: 0.5%;
   color: white;
   background-color: var(--color-shiny-shamrock);
+}
+
+.menu__button-second--color-green:hover {
+  background-color: var(--color-turquoise-green);
+  color: var(--color-outer-space);
 }
 
 .segunda-seccion {
@@ -208,21 +224,21 @@ main {
   --color-white: #fff;
   --color-issabeline: #eeeded;
   --color-spanish-grey: #989797;
-  --color-coral: #FA824C;
-  --color-buff: #F1DD7B;
-  --color-vanilla: #F5E7A1;
-  --color-flame: #E4572E;
-  --color-ligh-red-ochre: #E87554;
-  --color-pastel-pink: #F2B2A0;
-  --color-shiny-shamrock: #4CA866;
-  --color-turquoise-green: #9DCFAB;
-  --color-pastel-grey: #8DDFC7;
-  --color-blue-de-france: #3C91E6;
-  --color-blue-jean: #5FA5EA;
-  --color-jordy-blue: #82B9EF;
+  --color-coral: #fa824c;
+  --color-buff: #f1dd7b;
+  --color-vanilla: #f5e7a1;
+  --color-flame: #e4572e;
+  --color-ligh-red-ochre: #e87554;
+  --color-pastel-pink: #f2b2a0;
+  --color-shiny-shamrock: #4ca866;
+  --color-turquoise-green: #9dcfab;
+  --color-pastel-grey: #8ddfc7;
+  --color-blue-de-france: #3c91e6;
+  --color-blue-jean: #5fa5ea;
+  --color-jordy-blue: #82b9ef;
   --color-black: #000000;
   --color-outer-space: #454545;
-  --color-quick-silver: #A2A2A2;
+  --color-quick-silver: #a2a2a2;
 }
 
 /*# sourceMappingURL=style.css.map */
