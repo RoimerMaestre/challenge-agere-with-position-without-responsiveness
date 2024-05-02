@@ -37,33 +37,36 @@ main{
 position: absolute;
 top: 0;
 right: 0;
-
 width: 30%;
 height: 100%;
 text-align: justify;
+
  
 }
-.section-cafe-agere h1{
+.section-cafe-agere__titulo{
+    margin: 5rem 5rem 0 5rem;
     font-size: 5rem;
     font-weight: 100; 
   
 }
-.section-cafe-agere p{
-    margin-left: 27%;
-    margin-top: 5%;
+.section-cafe-agere__parrafo{
+    margin-left: 23%;
+    margin-top: 1rem;
+   
+
 }
 
 .box-agere{
     width: 5rem;
     height: 5rem;
-    background-color: var(--color-primario-buff);
+    background-color: var(--color-buff);
     position: absolute;
     bottom: 0;
 }
 .box-agere-icon{
     width: 5.5rem;
     height: 5.5rem;
-  background-color:var(--color-primario-flame);
+  background-color:var(--color-flame);
     position: absolute;
     bottom: 12px;
     left: -3%;

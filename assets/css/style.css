@@ -4,7 +4,6 @@
 header {
   background-color: #f2f2f2;
   padding: 20px;
-  position: sticky;
   width: 100%;
   height: 12%;
 }
@@ -42,7 +41,7 @@ header {
 
 .menu__link {
   text-decoration: none;
-  color: grey;
+  color: var(--color-spanish-grey);
   margin: 15px;
 }
 
@@ -94,22 +93,21 @@ main {
   text-align: justify;
 }
 
-.section-cafe-agere h1 {
+.section-cafe-agere__titulo {
+  margin: 5rem 5rem 0 5rem;
   font-size: 5rem;
   font-weight: 100;
-  margin-top: 25%;
-  margin-left: 25%;
 }
 
-.section-cafe-agere p {
-  margin-left: 27%;
-  margin-top: 5%;
+.section-cafe-agere__parrafo {
+  margin-left: 23%;
+  margin-top: 1rem;
 }
 
 .box-agere {
-  width: 5.5rem;
-  height: 5.5rem;
-  background-color: var(--color-primario-buff);
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--color-buff);
   position: absolute;
   bottom: 0;
 }
@@ -117,7 +115,7 @@ main {
 .box-agere-icon {
   width: 5.5rem;
   height: 5.5rem;
-  background-color: var(--color-primario-flame);
+  background-color: var(--color-flame);
   position: absolute;
   bottom: 12px;
   left: -3%;
@@ -135,7 +133,7 @@ main {
   position: absolute;
   right: 13%;
   padding: 0.5%;
-  color: gray;
+  background-color: var(white);
 }
 
 .menu__button-second--color-green {
@@ -143,7 +141,7 @@ main {
   right: 6%;
   padding: 0.5%;
   color: white;
-  background-color: var(--color-primario-shiny-shamrock);
+  background-color: var(--color-shiny-shamrock);
 }
 
 .segunda-seccion {
@@ -172,7 +170,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: var(--color-primario-blue-de-france);
+  background-color: var(--color-blue-de-france);
 }
 
 .section-conocenos-img {
@@ -194,7 +192,6 @@ main {
   height: 80%;
   top: 25px;
   right: 10%;
-  object-fit: cover;
 }
 
 .section-conocenos__imagen-tres {
@@ -208,24 +205,24 @@ main {
 }
 
 :root {
-  --color-primario-white: #fff;
-  --color-primario-issabeline: #eeeded;
-  --color-primario-spanish-grey: #989797;
-  --color-primario-coral: #FA824C;
-  --color-primario-buff: #F1DD7B;
-  --color-primario-vanilla: #F5E7A1;
-  --color-primario-flame: #E4572E;
-  --color-primario-ligh-red-ochre: #E87554;
-  --color-primario-pastel-pink: #F2B2A0;
-  --color-primario-shiny-shamrock: #4CA866;
-  --color-primario-turquoise-green: #9DCFAB;
-  --color-primario-pastel-grey: #8DDFC7;
-  --color-primario-blue-de-france: #3C91E6;
-  --color-primario-blue-jean: #5FA5EA;
-  --color-primario-jordy-blue: #82B9EF;
-  --color-primario-black: #000000;
-  --color-primario-outer-space: #454545;
-  --color-primario-quick-silver: #A2A2A2;
+  --color-white: #fff;
+  --color-issabeline: #eeeded;
+  --color-spanish-grey: #989797;
+  --color-coral: #FA824C;
+  --color-buff: #F1DD7B;
+  --color-vanilla: #F5E7A1;
+  --color-flame: #E4572E;
+  --color-ligh-red-ochre: #E87554;
+  --color-pastel-pink: #F2B2A0;
+  --color-shiny-shamrock: #4CA866;
+  --color-turquoise-green: #9DCFAB;
+  --color-pastel-grey: #8DDFC7;
+  --color-blue-de-france: #3C91E6;
+  --color-blue-jean: #5FA5EA;
+  --color-jordy-blue: #82B9EF;
+  --color-black: #000000;
+  --color-outer-space: #454545;
+  --color-quick-silver: #A2A2A2;
 }
 
 /*# sourceMappingURL=style.css.map */
